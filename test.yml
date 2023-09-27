@@ -1,0 +1,6 @@
+---
+- name: Test file 
+  hosts: localhost
+  tasks:
+    - debug:
+        msg: "Hello World"
